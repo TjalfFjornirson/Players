@@ -1,0 +1,21 @@
+Barbarian
+	background
+		D07057
+		DF9781
+		
+	foreground
+		
+		shadow	ff0022	50
+		blur 	10 5 -5
+	
+
+
+Blood Hunter
+	background
+		BF1315
+		220202
+	
+	foreground
+		FFFFFF
+		shadow 	000000 100
+		blur	15 0 0

@@ -1,0 +1,134 @@
+{   
+    "name": "SharedData_Player",   
+    "title": "Tjalfs Players Stuff",   
+    "description": "Every DM needs a Tjalf",   
+    "author": "Tjalf Fjornirson",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion":"0.6.6",
+    "url": "https://github.com/TjalfFjornirson/Players",
+    "manifest": "https://github.com/TjalfFjornirson/Players/raw/master/module.json",
+    "download": "https://github.com/TjalfFjornirson/Players/archive/master/master.zip",
+    "packs": [
+        {
+          "name": "shared_gear",
+          "label": "010.Gear",
+          "system": "dnd5e",
+          "path": "packs/shared_gear.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_spells",
+          "label": "000.Spells",
+          "system": "dnd5e",
+          "path": "packs/shared_spells.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_macros",
+          "label": "000.Macros",
+          "system": "dnd5e",
+          "path": "packs/shared_macros.db",
+          "entity": "Macro",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_tools",
+          "label": "010.Tools",
+          "system": "dnd5e",
+          "path": "packs/shared_tools.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+		{
+          "name": "shared_tblBackgrounds",
+          "label": "000.Tables Backgrounds",
+          "system": "dnd5e",
+          "path": "packs/shared_tblBackgrounds.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+		{
+          "name": "shared_tblPHB",
+          "label": "000.Tables PHB",
+          "system": "dnd5e",
+          "path": "packs/shared_tblPhb.db",
+          "entity": "RollTable",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_weapons",
+          "label": "010.Weapons",
+          "system": "dnd5e",
+          "path": "packs/shared_weapons.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_armor",
+          "label": "010.Armor",
+          "system": "dnd5e",
+          "path": "packs/shared_armor.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_classes",
+          "label": "000.Classes",
+          "system": "dnd5e",
+          "path": "packs/shared_classes.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_classfeat",
+          "label": "000.Class Feature",
+          "system": "dnd5e",
+          "path": "packs/shared_feature.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_feats",
+          "label": "000.Feats",
+          "system": "dnd5e",
+          "path": "packs/shared_feats.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_races",
+          "label": "000.Races",
+          "system": "dnd5e",
+          "path": "packs/shared_races.db",
+          "entity": "Item",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_journalCond",
+          "label": "001.Conditions",
+          "system": "dnd5e",
+          "path": "packs/shared_conditions.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_skills",
+          "label": "001.Skills",
+          "system": "dnd5e",
+          "path": "packs/shared_skills.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_PHB",
+          "label": "000.PHB",
+          "system": "dnd5e",
+          "path": "packs/shared_phb.db",
+          "entity": "JournalEntry",
+          "module": "SharedData"
+        }
+      ]
+  }
