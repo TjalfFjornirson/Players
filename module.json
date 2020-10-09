@@ -3,7 +3,7 @@
     "title": "Tjalfs Players Stuff",   
     "description": "Every DM needs a Tjalf",   
     "author": "Tjalf Fjornirson",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.6.6",
     "url": "https://github.com/TjalfFjornirson/Players",
@@ -128,6 +128,14 @@
           "system": "dnd5e",
           "path": "packs/shared_phb.db",
           "entity": "JournalEntry",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_backgrounds",
+          "label": "000.Backgrounds",
+          "system": "dnd5e",
+          "path": "packs/shared_backgrounds.db",
+          "entity": "Item",
           "module": "SharedData"
         }
       ]
