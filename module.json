@@ -3,7 +3,7 @@
     "title": "Tjalfs Players Stuff",   
     "description": "Every DM needs a Tjalf",   
     "author": "Tjalf Fjornirson",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "minimumCoreVersion": "0.6.0",
     "compatibleCoreVersion":"0.6.6",
     "url": "https://github.com/TjalfFjornirson/Players",
@@ -137,6 +137,14 @@
           "path": "packs/shared_backgrounds.db",
           "entity": "Item",
           "module": "SharedData"
-        }
+        },
+        {
+          "name": "shared_mounts",
+          "label": "020.Mounts and Vehicles",
+          "system": "dnd5e",
+          "path": "packs/shared_mounts.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        }        
       ]
   }
