@@ -3,9 +3,9 @@
     "title": "Tjalfs Players Stuff",   
     "description": "Every DM needs a Tjalf",   
     "author": "Tjalf Fjornirson",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion":"0.6.6",
+    "compatibleCoreVersion":"0.7.5",
     "url": "https://github.com/TjalfFjornirson/Players",
     "manifest": "https://github.com/TjalfFjornirson/Players/raw/master/module.json",
     "download": "https://github.com/TjalfFjornirson/Players/archive/master/master.zip",
@@ -143,6 +143,14 @@
           "label": "020.Mounts and Vehicles",
           "system": "dnd5e",
           "path": "packs/shared_mounts.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_mounts",
+          "label": "020.Spell Token",
+          "system": "dnd5e",
+          "path": "packs/shared_spellToken.db",
           "entity": "Actor",
           "module": "SharedData"
         }        
