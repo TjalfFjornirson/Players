@@ -3,9 +3,9 @@
     "title": "Tjalfs Players Stuff",   
     "description": "Every DM needs a Tjalf",   
     "author": "Tjalf Fjornirson",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion":"0.7.5",
+    "compatibleCoreVersion":"0.7.7",
     "url": "https://github.com/TjalfFjornirson/Players",
     "manifest": "https://github.com/TjalfFjornirson/Players/raw/master/module.json",
     "download": "https://github.com/TjalfFjornirson/Players/archive/master/master.zip",
@@ -147,10 +147,18 @@
           "module": "SharedData"
         },
         {
-          "name": "shared_mounts",
+          "name": "shared_spellToken",
           "label": "020.Spell Token",
           "system": "dnd5e",
           "path": "packs/shared_spellToken.db",
+          "entity": "Actor",
+          "module": "SharedData"
+        },
+        {
+          "name": "shared_spellMonster",
+          "label": "001.Monster (Summoning)",
+          "system": "dnd5e",
+          "path": "packs/shared_spellMonster.db",
           "entity": "Actor",
           "module": "SharedData"
         }        
